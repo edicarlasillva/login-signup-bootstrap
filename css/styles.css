@@ -1,0 +1,27 @@
+@media (min-width: 768px) {
+  .resize {
+    width: 60%;
+  }
+}
+
+body {
+  height: 100vh;
+}
+
+button.btn.btn-link {
+  padding: 0;
+  text-decoration: none;
+}
+
+.btn-primary,
+.bg-primary {
+  background-color: #5667cb !important;
+}
+
+.btn-link {
+  color: #5667cb;
+}
+
+.login {
+  height: calc(100% - 56px);
+}
